@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSV merger</title>
+</head>
+<body>
+    <input id="fileUploader" type="file" multiple="multiple" onchange="updateList()">
+    <div id="divFiles"></div>
+    <table id="table"></table>
+    <textarea id="content" style="width:100%;height:640px;"></textarea>
+    <button id="download" onclick="makeTextFile()">Download Merged CSV</button>
+    
+    <script src="./main.js"></script>
+
+</body>
+</html>
